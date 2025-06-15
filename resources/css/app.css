@@ -1,0 +1,121 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background: #ffffff;
+    color: #1f2937;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+    background: #f9fafb;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    color: #166534;
+    transition: color 0.3s;
+}
+
+.navbar-brand:hover {
+    color: #15803d;
+}
+
+.nav-link {
+    color: #374151;
+    font-weight: 500;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-link:hover {
+    color: #166534;
+}
+
+.dropdown-menu {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    color: #374151;
+    transition: background 0.3s;
+}
+
+.dropdown-item:hover {
+    background: #f3f4f6;
+    color: #166534;
+}
+
+.alert {
+    border-radius: 8px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.alert-success {
+    background: #ecfdf5;
+    color: #065f46;
+    border: 1px solid #6ee7b7;
+}
+
+.alert-danger {
+    background: #fef2f2;
+    color: #991b1b;
+    border: 1px solid #fecaca;
+}
+
+main {
+    padding: 2rem 0;
+}
+
+.btn-primary {
+    background: linear-gradient(90deg, #166534, #1e40af);
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: linear-gradient(90deg, #14532d, #1e3a8a);
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1200px;
+}
+
+.card {
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    color: #1f2937;
+}
+
+.form-control, .form-select {
+    background: #ffffff;
+    color: #1f2937;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.form-check-input:checked {
+    background-color: #166534;
+    border-color: #166534;
+}
+
+.table {
+    background: #ffffff;
+    color: #1f2937;
+}
+
+.table th, .table td {
+    border-color: #e5e7eb;
+}

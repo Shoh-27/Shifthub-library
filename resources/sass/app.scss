@@ -1,0 +1,36 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// Bootstrapni import qilish
+@import "~bootstrap/scss/bootstrap";
+
+// Foydalanuvchi ranglari
+$dark-green: #0f1c11;
+$light-green: #1db954;
+$gradient-green: linear-gradient(90deg, #0f1c11 0%, #1db954 100%);
+
+.bg-dark-green {
+    background-color: $dark-green !important;
+    color: #ffffff;
+}
+
+.bg-gradient-green {
+    background: $gradient-green !important;
+    color: #ffffff;
+}
+
+.navbar .nav-link {
+    color: #ffffff !important;
+    transition: color 0.2s;
+}
+
+.navbar .nav-link:hover {
+    color: #1db954 !important;
+}
+
